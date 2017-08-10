@@ -1,0 +1,4381 @@
+/* ::::: http://demo.geekslabs.com/materialize/v2.2/layout03/css/materialize.css ::::: */
+
+main {
+    flex: 1 0 auto;
+}
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0px;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active, a:hover {
+    outline: 0px none;
+}
+
+img {
+    border: 0px none;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0px;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0px none;
+    padding: 0px;
+}
+
+input {
+    line-height: normal;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: rgb(3, 155, 229);
+    text-decoration: none;
+}
+
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.z-depth-1-half, .btn:hover, .btn-large:hover, .btn-floating:hover {
+    box-shadow: 0px 5px 11px 0px rgba(0, 0, 0, 0.18), 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+}
+
+.z-depth-4, .modal {
+    box-shadow: 0px 16px 28px 0px rgba(0, 0, 0, 0.22), 0px 25px 55px 0px rgba(0, 0, 0, 0.21);
+}
+
+i {
+    line-height: inherit;
+}
+
+img.responsive-img, video.responsive-video {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 601px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 601px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+table.striped > tbody > tr:nth-child(2n+1) {
+    background-color: rgb(242, 242, 242);
+}
+
+@media only screen and (max-width: 992px) {
+    table.responsive-table thead tr th::before {
+        content: " ";
+    }
+}
+
+.collection a.collection-item:hover:not(.active) {
+    background-color: rgb(221, 221, 221);
+}
+
+span.badge.new::after {
+    content: " new";
+}
+
+.progress .indeterminate::before {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    will-change: left, right;
+    animation: 2.1s cubic-bezier(0.65, 0.815, 0.735, 0.395) 0s normal none infinite running indeterminate;
+}
+
+.progress .indeterminate::after {
+    content: "";
+    position: absolute;
+    background-color: inherit;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    will-change: left, right;
+    animation: 2.1s cubic-bezier(0.165, 0.84, 0.44, 1) 1.15s normal none infinite running indeterminate-short;
+}
+
+.right-align {
+    text-align: right;
+}
+
+.center, .center-align {
+    text-align: center;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: "Material-Design-Icons";
+    font-style: normal;
+    font-weight: normal;
+    src: url('material-design-icons.eot') format("embedded-opentype"), url('material-design-icons.woff') format("woff"), url('material-design-icons.ttf') format("truetype"), url('material-design-icons.svg') format("svg");
+}
+
+[class^="mdi-"], [class*="mdi-"] {
+    display: inline-block;
+    font: 24px/1 "Material-Design-Icons";
+    text-rendering: auto;
+    transform: translate(0px, 0px);
+}
+
+[class^="mdi-"]::before, [class*="mdi-"]::before {
+    display: inline-block;
+    text-decoration: inherit;
+}
+
+.mdi-lg[class^="mdi-"]::before, .mdi-lg[class^="mdi-"]::after, .mdi-lg[class*="mdi-"]::before, .mdi-lg[class*="mdi-"]::after {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -15%;
+}
+
+.mdi-2x[class^="mdi-"]::before, .mdi-2x[class^="mdi-"]::after, .mdi-2x[class*="mdi-"]::before, .mdi-2x[class*="mdi-"]::after {
+    font-size: 2em;
+}
+
+.mdi-3x[class^="mdi-"]::before, .mdi-3x[class^="mdi-"]::after, .mdi-3x[class*="mdi-"]::before, .mdi-3x[class*="mdi-"]::after {
+    font-size: 3em;
+}
+
+.mdi-4x[class^="mdi-"]::before, .mdi-4x[class^="mdi-"]::after, .mdi-4x[class*="mdi-"]::before, .mdi-4x[class*="mdi-"]::after {
+    font-size: 4em;
+}
+
+.mdi-5x[class^="mdi-"]::before, .mdi-5x[class^="mdi-"]::after, .mdi-5x[class*="mdi-"]::before, .mdi-5x[class*="mdi-"]::after {
+    font-size: 5em;
+}
+
+[class^="mdi-device-signal-cellular-"]::after, [class^="mdi-device-battery-"]::after, [class^="mdi-device-battery-charging-"]::after, [class^="mdi-device-signal-cellular-connected-no-internet-"]::after, [class^="mdi-device-signal-wifi-"]::after, [class^="mdi-device-signal-wifi-statusbar-not-connected"]::after, .mdi-device-network-wifi::after {
+    opacity: 0.3;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    display: inline-block;
+    text-decoration: inherit;
+}
+
+[class^="mdi-device-signal-cellular-"]::after {
+    content: "";
+}
+
+[class^="mdi-device-battery-"]::after {
+    content: "";
+}
+
+[class^="mdi-device-battery-charging-"]::after {
+    content: "";
+}
+
+[class^="mdi-device-signal-cellular-connected-no-internet-"]::after {
+    content: "";
+}
+
+[class^="mdi-device-signal-wifi-"]::after, .mdi-device-network-wifi::after {
+    content: "";
+}
+
+[class^="mdi-device-signal-wifi-statusbasr-not-connected"]::after {
+    content: "";
+}
+
+.mdi-device-signal-cellular-off::after, .mdi-device-signal-cellular-null::after, .mdi-device-signal-cellular-no-sim::after, .mdi-device-signal-wifi-off::after, .mdi-device-signal-wifi-4-bar::after, .mdi-device-signal-cellular-4-bar::after, .mdi-device-battery-alert::after, .mdi-device-signal-cellular-connected-no-internet-4-bar::after, .mdi-device-battery-std::after, .mdi-device-battery-full .mdi-device-battery-unknown::after {
+    content: "";
+}
+
+.mdi-action-3d-rotation::before {
+    content: "";
+}
+
+.mdi-action-accessibility::before {
+    content: "";
+}
+
+.mdi-action-account-balance-wallet::before {
+    content: "";
+}
+
+.mdi-action-account-balance::before {
+    content: "";
+}
+
+.mdi-action-account-box::before {
+    content: "";
+}
+
+.mdi-action-account-child::before {
+    content: "";
+}
+
+.mdi-action-account-circle::before {
+    content: "";
+}
+
+.mdi-action-add-shopping-cart::before {
+    content: "";
+}
+
+.mdi-action-alarm-add::before {
+    content: "";
+}
+
+.mdi-action-alarm-off::before {
+    content: "";
+}
+
+.mdi-action-alarm-off::before {
+    content: "";
+}
+
+.mdi-action-alarm-on::before {
+    content: "";
+}
+
+.mdi-action-android::before {
+    content: "";
+}
+
+.mdi-action-announcement::before {
+    content: "";
+}
+
+.mdi-action-aspect-ratio::before {
+    content: "";
+}
+
+.mdi-action-assessment::before {
+    content: "";
+}
+
+.mdi-action-assignment::before {
+    content: "";
+}
+
+.mdi-action-assignment-ind::before {
+    content: "";
+}
+
+.mdi-action-assignment-late::before {
+    content: "";
+}
+
+.mdi-action-assignment-return::before {
+    content: "";
+}
+
+.mdi-action-assignment-returned::before {
+    content: "";
+}
+
+.mdi-action-assignment-turned-in::before {
+    content: "";
+}
+
+.mdi-action-autorenew::before {
+    content: "";
+}
+
+.mdi-action-backup::before {
+    content: "";
+}
+
+.mdi-action-book::before {
+    content: "";
+}
+
+.mdi-action-bookmark::before {
+    content: "";
+}
+
+.mdi-action-bookmark-outline::before {
+    content: "";
+}
+
+.mdi-action-bug-report::before {
+    content: "";
+}
+
+.mdi-action-cached::before {
+    content: "";
+}
+
+.mdi-action-class::before {
+    content: "";
+}
+
+.mdi-action-credit-card::before {
+    content: "";
+}
+
+.mdi-action-dashboard::before {
+    content: "";
+}
+
+.mdi-action-delete::before {
+    content: "";
+}
+
+.mdi-action-description::before {
+    content: "";
+}
+
+.mdi-action-dns::before {
+    content: "";
+}
+
+.mdi-action-done::before {
+    content: "";
+}
+
+.mdi-action-done-all::before {
+    content: "";
+}
+
+.mdi-action-event::before {
+    content: "";
+}
+
+.mdi-action-exit-to-app::before {
+    content: "";
+}
+
+.mdi-action-explore::before {
+    content: "";
+}
+
+.mdi-action-extension::before {
+    content: "";
+}
+
+.mdi-action-face-unlock::before {
+    content: "";
+}
+
+.mdi-action-favorite::before {
+    content: "";
+}
+
+.mdi-action-favorite-outline::before {
+    content: "";
+}
+
+.mdi-action-find-in-page::before {
+    content: "";
+}
+
+.mdi-action-find-replace::before {
+    content: "";
+}
+
+.mdi-action-flip-to-back::before {
+    content: "";
+}
+
+.mdi-action-flip-to-front::before {
+    content: "";
+}
+
+.mdi-action-get-app::before {
+    content: "";
+}
+
+.mdi-action-grade::before {
+    content: "";
+}
+
+.mdi-action-group-work::before {
+    content: "";
+}
+
+.mdi-action-help::before {
+    content: "";
+}
+
+.mdi-action-highlight-remove::before {
+    content: "";
+}
+
+.mdi-action-history::before {
+    content: "";
+}
+
+.mdi-action-home::before {
+    content: "";
+}
+
+.mdi-action-https::before {
+    content: "";
+}
+
+.mdi-action-info::before {
+    content: "";
+}
+
+.mdi-action-info-outline::before {
+    content: "";
+}
+
+.mdi-action-input::before {
+    content: "";
+}
+
+.mdi-action-invert-colors::before {
+    content: "";
+}
+
+.mdi-action-label::before {
+    content: "";
+}
+
+.mdi-action-label-outline::before {
+    content: "";
+}
+
+.mdi-action-language::before {
+    content: "";
+}
+
+.mdi-action-launch::before {
+    content: "";
+}
+
+.mdi-action-list::before {
+    content: "";
+}
+
+.mdi-action-lock::before {
+    content: "";
+}
+
+.mdi-action-lock-open::before {
+    content: "";
+}
+
+.mdi-action-lock-outline::before {
+    content: "";
+}
+
+.mdi-action-loyalty::before {
+    content: "";
+}
+
+.mdi-action-markunread-mailbox::before {
+    content: "";
+}
+
+.mdi-action-note-add::before {
+    content: "";
+}
+
+.mdi-action-open-in-browser::before {
+    content: "";
+}
+
+.mdi-action-open-in-new::before {
+    content: "";
+}
+
+.mdi-action-open-with::before {
+    content: "";
+}
+
+.mdi-action-pageview::before {
+    content: "";
+}
+
+.mdi-action-payment::before {
+    content: "";
+}
+
+.mdi-action-perm-camera-mic::before {
+    content: "";
+}
+
+.mdi-action-perm-contact-cal::before {
+    content: "";
+}
+
+.mdi-action-perm-data-setting::before {
+    content: "";
+}
+
+.mdi-action-perm-device-info::before {
+    content: "";
+}
+
+.mdi-action-perm-identity::before {
+    content: "";
+}
+
+.mdi-action-perm-media::before {
+    content: "";
+}
+
+.mdi-action-perm-phone-msg::before {
+    content: "";
+}
+
+.mdi-action-perm-scan-wifi::before {
+    content: "";
+}
+
+.mdi-action-picture-in-picture::before {
+    content: "";
+}
+
+.mdi-action-polymer::before {
+    content: "";
+}
+
+.mdi-action-print::before {
+    content: "";
+}
+
+.mdi-action-query-builder::before {
+    content: "";
+}
+
+.mdi-action-question-answer::before {
+    content: "";
+}
+
+.mdi-action-receipt::before {
+    content: "";
+}
+
+.mdi-action-redeem::before {
+    content: "";
+}
+
+.mdi-action-report-problem::before {
+    content: "";
+}
+
+.mdi-action-restore::before {
+    content: "";
+}
+
+.mdi-action-room::before {
+    content: "";
+}
+
+.mdi-action-schedule::before {
+    content: "";
+}
+
+.mdi-action-search::before {
+    content: "";
+}
+
+.mdi-action-settings::before {
+    content: "";
+}
+
+.mdi-action-settings-applications::before {
+    content: "";
+}
+
+.mdi-action-settings-backup-restore::before {
+    content: "";
+}
+
+.mdi-action-settings-bluetooth::before {
+    content: "";
+}
+
+.mdi-action-settings-cell::before {
+    content: "";
+}
+
+.mdi-action-settings-display::before {
+    content: "";
+}
+
+.mdi-action-settings-ethernet::before {
+    content: "";
+}
+
+.mdi-action-settings-input-antenna::before {
+    content: "";
+}
+
+.mdi-action-settings-input-component::before {
+    content: "";
+}
+
+.mdi-action-settings-input-composite::before {
+    content: "";
+}
+
+.mdi-action-settings-input-hdmi::before {
+    content: "";
+}
+
+.mdi-action-settings-input-svideo::before {
+    content: "";
+}
+
+.mdi-action-settings-overscan::before {
+    content: "";
+}
+
+.mdi-action-settings-phone::before {
+    content: "";
+}
+
+.mdi-action-settings-power::before {
+    content: "";
+}
+
+.mdi-action-settings-remote::before {
+    content: "";
+}
+
+.mdi-action-settings-voice::before {
+    content: "";
+}
+
+.mdi-action-shop::before {
+    content: "";
+}
+
+.mdi-action-shopping-basket::before {
+    content: "";
+}
+
+.mdi-action-shopping-cart::before {
+    content: "";
+}
+
+.mdi-action-shop-two::before {
+    content: "";
+}
+
+.mdi-action-speaker-notes::before {
+    content: "";
+}
+
+.mdi-action-spellcheck::before {
+    content: "";
+}
+
+.mdi-action-star-rate::before {
+    content: "";
+}
+
+.mdi-action-stars::before {
+    content: "";
+}
+
+.mdi-action-store::before {
+    content: "";
+}
+
+.mdi-action-subject::before {
+    content: "";
+}
+
+.mdi-action-swap-horiz::before {
+    content: "";
+}
+
+.mdi-action-swap-vert::before {
+    content: "";
+}
+
+.mdi-action-swap-vert-circle::before {
+    content: "";
+}
+
+.mdi-action-system-update-tv::before {
+    content: "";
+}
+
+.mdi-action-tab::before {
+    content: "";
+}
+
+.mdi-action-tab-unselected::before {
+    content: "";
+}
+
+.mdi-action-theaters::before {
+    content: "";
+}
+
+.mdi-action-thumb-down::before {
+    content: "";
+}
+
+.mdi-action-thumbs-up-down::before {
+    content: "";
+}
+
+.mdi-action-thumb-up::before {
+    content: "";
+}
+
+.mdi-action-toc::before {
+    content: "";
+}
+
+.mdi-action-today::before {
+    content: "";
+}
+
+.mdi-action-track-changes::before {
+    content: "";
+}
+
+.mdi-action-translate::before {
+    content: "";
+}
+
+.mdi-action-trending-down::before {
+    content: "";
+}
+
+.mdi-action-trending-neutral::before {
+    content: "";
+}
+
+.mdi-action-trending-up::before {
+    content: "";
+}
+
+.mdi-action-turned-in::before {
+    content: "";
+}
+
+.mdi-action-turned-in-not::before {
+    content: "";
+}
+
+.mdi-action-verified-user::before {
+    content: "";
+}
+
+.mdi-action-view-agenda::before {
+    content: "";
+}
+
+.mdi-action-view-array::before {
+    content: "";
+}
+
+.mdi-action-view-carousel::before {
+    content: "";
+}
+
+.mdi-action-view-column::before {
+    content: "";
+}
+
+.mdi-action-view-day::before {
+    content: "";
+}
+
+.mdi-action-view-headline::before {
+    content: "";
+}
+
+.mdi-action-view-list::before {
+    content: "";
+}
+
+.mdi-action-view-module::before {
+    content: "";
+}
+
+.mdi-action-view-quilt::before {
+    content: "";
+}
+
+.mdi-action-view-stream::before {
+    content: "";
+}
+
+.mdi-action-view-week::before {
+    content: "";
+}
+
+.mdi-action-visibility::before {
+    content: "";
+}
+
+.mdi-action-visibility-off::before {
+    content: "";
+}
+
+.mdi-action-wallet-giftcard::before {
+    content: "";
+}
+
+.mdi-action-wallet-membership::before {
+    content: "";
+}
+
+.mdi-action-wallet-travel::before {
+    content: "";
+}
+
+.mdi-action-work::before {
+    content: "";
+}
+
+.mdi-alert-error::before {
+    content: "";
+}
+
+.mdi-alert-warning::before {
+    content: "";
+}
+
+.mdi-av-album::before {
+    content: "";
+}
+
+.mdi-av-timer::before {
+    content: "";
+}
+
+.mdi-av-closed-caption::before {
+    content: "";
+}
+
+.mdi-av-equalizer::before {
+    content: "";
+}
+
+.mdi-av-explicit::before {
+    content: "";
+}
+
+.mdi-av-fast-forward::before {
+    content: "";
+}
+
+.mdi-av-fast-rewind::before {
+    content: "";
+}
+
+.mdi-av-games::before {
+    content: "";
+}
+
+.mdi-av-hearing::before {
+    content: "";
+}
+
+.mdi-av-high-quality::before {
+    content: "";
+}
+
+.mdi-av-loop::before {
+    content: "";
+}
+
+.mdi-av-mic::before {
+    content: "";
+}
+
+.mdi-av-mic-none::before {
+    content: "";
+}
+
+.mdi-av-mic-off::before {
+    content: "";
+}
+
+.mdi-av-movie::before {
+    content: "";
+}
+
+.mdi-av-my-library-add::before {
+    content: "";
+}
+
+.mdi-av-my-library-books::before {
+    content: "";
+}
+
+.mdi-av-my-library-music::before {
+    content: "";
+}
+
+.mdi-av-new-releases::before {
+    content: "";
+}
+
+.mdi-av-not-interested::before {
+    content: "";
+}
+
+.mdi-av-pause::before {
+    content: "";
+}
+
+.mdi-av-pause-circle-fill::before {
+    content: "";
+}
+
+.mdi-av-pause-circle-outline::before {
+    content: "";
+}
+
+.mdi-av-play-arrow::before {
+    content: "";
+}
+
+.mdi-av-play-circle-fill::before {
+    content: "";
+}
+
+.mdi-av-play-circle-outline::before {
+    content: "";
+}
+
+.mdi-av-playlist-add::before {
+    content: "";
+}
+
+.mdi-av-play-shopping-bag::before {
+    content: "";
+}
+
+.mdi-av-queue::before {
+    content: "";
+}
+
+.mdi-av-queue-music::before {
+    content: "";
+}
+
+.mdi-av-radio::before {
+    content: "";
+}
+
+.mdi-av-recent-actors::before {
+    content: "";
+}
+
+.mdi-av-repeat::before {
+    content: "";
+}
+
+.mdi-av-repeat-one::before {
+    content: "";
+}
+
+.mdi-av-replay::before {
+    content: "";
+}
+
+.mdi-av-shuffle::before {
+    content: "";
+}
+
+.mdi-av-skip-next::before {
+    content: "";
+}
+
+.mdi-av-skip-previous::before {
+    content: "";
+}
+
+.mdi-av-snooze::before {
+    content: "";
+}
+
+.mdi-av-stop::before {
+    content: "";
+}
+
+.mdi-av-subtitles::before {
+    content: "";
+}
+
+.mdi-av-surround-sound::before {
+    content: "";
+}
+
+.mdi-av-videocam::before {
+    content: "";
+}
+
+.mdi-av-videocam-off::before {
+    content: "";
+}
+
+.mdi-av-video-collection::before {
+    content: "";
+}
+
+.mdi-av-volume-down::before {
+    content: "";
+}
+
+.mdi-av-volume-mute::before {
+    content: "";
+}
+
+.mdi-av-volume-off::before {
+    content: "";
+}
+
+.mdi-av-volume-up::before {
+    content: "";
+}
+
+.mdi-av-web::before {
+    content: "";
+}
+
+.mdi-communication-business::before {
+    content: "";
+}
+
+.mdi-communication-call::before {
+    content: "";
+}
+
+.mdi-communication-call-end::before {
+    content: "";
+}
+
+.mdi-communication-call-made::before {
+    content: "";
+}
+
+.mdi-communication-call-merge::before {
+    content: "";
+}
+
+.mdi-communication-call-missed::before {
+    content: "";
+}
+
+.mdi-communication-call-received::before {
+    content: "";
+}
+
+.mdi-communication-call-split::before {
+    content: "";
+}
+
+.mdi-communication-chat::before {
+    content: "";
+}
+
+.mdi-communication-clear-all::before {
+    content: "";
+}
+
+.mdi-communication-comment::before {
+    content: "";
+}
+
+.mdi-communication-contacts::before {
+    content: "";
+}
+
+.mdi-communication-dialer-sip::before {
+    content: "";
+}
+
+.mdi-communication-dialpad::before {
+    content: "";
+}
+
+.mdi-communication-dnd-on::before {
+    content: "";
+}
+
+.mdi-communication-email::before {
+    content: "";
+}
+
+.mdi-communication-forum::before {
+    content: "";
+}
+
+.mdi-communication-import-export::before {
+    content: "";
+}
+
+.mdi-communication-invert-colors-off::before {
+    content: "";
+}
+
+.mdi-communication-invert-colors-on::before {
+    content: "";
+}
+
+.mdi-communication-live-help::before {
+    content: "";
+}
+
+.mdi-communication-location-off::before {
+    content: "";
+}
+
+.mdi-communication-location-on::before {
+    content: "";
+}
+
+.mdi-communication-message::before {
+    content: "";
+}
+
+.mdi-communication-messenger::before {
+    content: "";
+}
+
+.mdi-communication-no-sim::before {
+    content: "";
+}
+
+.mdi-communication-phone::before {
+    content: "";
+}
+
+.mdi-communication-portable-wifi-off::before {
+    content: "";
+}
+
+.mdi-communication-quick-contacts-dialer::before {
+    content: "";
+}
+
+.mdi-communication-quick-contacts-mail::before {
+    content: "";
+}
+
+.mdi-communication-ring-volume::before {
+    content: "";
+}
+
+.mdi-communication-stay-current-landscape::before {
+    content: "";
+}
+
+.mdi-communication-stay-current-portrait::before {
+    content: "";
+}
+
+.mdi-communication-stay-primary-landscape::before {
+    content: "";
+}
+
+.mdi-communication-stay-primary-portrait::before {
+    content: "";
+}
+
+.mdi-communication-swap-calls::before {
+    content: "";
+}
+
+.mdi-communication-textsms::before {
+    content: "";
+}
+
+.mdi-communication-voicemail::before {
+    content: "";
+}
+
+.mdi-communication-vpn-key::before {
+    content: "";
+}
+
+.mdi-content-add::before {
+    content: "";
+}
+
+.mdi-content-add-box::before {
+    content: "";
+}
+
+.mdi-content-add-circle::before {
+    content: "";
+}
+
+.mdi-content-add-circle-outline::before {
+    content: "";
+}
+
+.mdi-content-archive::before {
+    content: "";
+}
+
+.mdi-content-backspace::before {
+    content: "";
+}
+
+.mdi-content-block::before {
+    content: "";
+}
+
+.mdi-content-clear::before {
+    content: "";
+}
+
+.mdi-content-content-copy::before {
+    content: "";
+}
+
+.mdi-content-content-cut::before {
+    content: "";
+}
+
+.mdi-content-content-paste::before {
+    content: "";
+}
+
+.mdi-content-create::before {
+    content: "";
+}
+
+.mdi-content-drafts::before {
+    content: "";
+}
+
+.mdi-content-filter-list::before {
+    content: "";
+}
+
+.mdi-content-flag::before {
+    content: "";
+}
+
+.mdi-content-forward::before {
+    content: "";
+}
+
+.mdi-content-gesture::before {
+    content: "";
+}
+
+.mdi-content-inbox::before {
+    content: "";
+}
+
+.mdi-content-link::before {
+    content: "";
+}
+
+.mdi-content-mail::before {
+    content: "";
+}
+
+.mdi-content-markunread::before {
+    content: "";
+}
+
+.mdi-content-redo::before {
+    content: "";
+}
+
+.mdi-content-remove::before {
+    content: "";
+}
+
+.mdi-content-remove-circle::before {
+    content: "";
+}
+
+.mdi-content-remove-circle-outline::before {
+    content: "";
+}
+
+.mdi-content-reply::before {
+    content: "";
+}
+
+.mdi-content-reply-all::before {
+    content: "";
+}
+
+.mdi-content-report::before {
+    content: "";
+}
+
+.mdi-content-save::before {
+    content: "";
+}
+
+.mdi-content-select-all::before {
+    content: "";
+}
+
+.mdi-content-send::before {
+    content: "";
+}
+
+.mdi-content-sort::before {
+    content: "";
+}
+
+.mdi-content-text-format::before {
+    content: "";
+}
+
+.mdi-content-undo::before {
+    content: "";
+}
+
+.mdi-device-access-alarm::before {
+    content: "";
+}
+
+.mdi-device-access-alarms::before {
+    content: "";
+}
+
+.mdi-device-access-time::before {
+    content: "";
+}
+
+.mdi-device-add-alarm::before {
+    content: "";
+}
+
+.mdi-device-airplanemode-off::before {
+    content: "";
+}
+
+.mdi-device-airplanemode-on::before {
+    content: "";
+}
+
+.mdi-device-battery-20::before {
+    content: "";
+}
+
+.mdi-device-battery-30::before {
+    content: "";
+}
+
+.mdi-device-battery-50::before {
+    content: "";
+}
+
+.mdi-device-battery-60::before {
+    content: "";
+}
+
+.mdi-device-battery-80::before {
+    content: "";
+}
+
+.mdi-device-battery-90::before {
+    content: "";
+}
+
+.mdi-device-battery-alert::before {
+    content: "";
+}
+
+.mdi-device-battery-charging-20::before {
+    content: "";
+}
+
+.mdi-device-battery-charging-30::before {
+    content: "";
+}
+
+.mdi-device-battery-charging-50::before {
+    content: "";
+}
+
+.mdi-device-battery-charging-60::before {
+    content: "";
+}
+
+.mdi-device-battery-charging-80::before {
+    content: "";
+}
+
+.mdi-device-battery-charging-90::before {
+    content: "";
+}
+
+.mdi-device-battery-charging-full::before {
+    content: "";
+}
+
+.mdi-device-battery-full::before {
+    content: "";
+}
+
+.mdi-device-battery-std::before {
+    content: "";
+}
+
+.mdi-device-battery-unknown::before {
+    content: "";
+}
+
+.mdi-device-bluetooth::before {
+    content: "";
+}
+
+.mdi-device-bluetooth-connected::before {
+    content: "";
+}
+
+.mdi-device-bluetooth-disabled::before {
+    content: "";
+}
+
+.mdi-device-bluetooth-searching::before {
+    content: "";
+}
+
+.mdi-device-brightness-auto::before {
+    content: "";
+}
+
+.mdi-device-brightness-high::before {
+    content: "";
+}
+
+.mdi-device-brightness-low::before {
+    content: "";
+}
+
+.mdi-device-brightness-medium::before {
+    content: "";
+}
+
+.mdi-device-data-usage::before {
+    content: "";
+}
+
+.mdi-device-developer-mode::before {
+    content: "";
+}
+
+.mdi-device-devices::before {
+    content: "";
+}
+
+.mdi-device-dvr::before {
+    content: "";
+}
+
+.mdi-device-gps-fixed::before {
+    content: "";
+}
+
+.mdi-device-gps-not-fixed::before {
+    content: "";
+}
+
+.mdi-device-gps-off::before {
+    content: "";
+}
+
+.mdi-device-location-disabled::before {
+    content: "";
+}
+
+.mdi-device-location-searching::before {
+    content: "";
+}
+
+.mdi-device-multitrack-audio::before {
+    content: "";
+}
+
+.mdi-device-network-cell::before {
+    content: "";
+}
+
+.mdi-device-network-wifi::before {
+    content: "";
+}
+
+.mdi-device-nfc::before {
+    content: "";
+}
+
+.mdi-device-now-wallpaper::before {
+    content: "";
+}
+
+.mdi-device-now-widgets::before {
+    content: "";
+}
+
+.mdi-device-screen-lock-landscape::before {
+    content: "";
+}
+
+.mdi-device-screen-lock-portrait::before {
+    content: "";
+}
+
+.mdi-device-screen-lock-rotation::before {
+    content: "";
+}
+
+.mdi-device-screen-rotation::before {
+    content: "";
+}
+
+.mdi-device-sd-storage::before {
+    content: "";
+}
+
+.mdi-device-settings-system-daydream::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-0-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-1-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-2-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-3-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-4-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-connected-no-internet-0-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-connected-no-internet-1-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-connected-no-internet-2-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-connected-no-internet-3-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-connected-no-internet-4-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-no-sim::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-null::before {
+    content: "";
+}
+
+.mdi-device-signal-cellular-off::before {
+    content: "";
+}
+
+.mdi-device-signal-wifi-0-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-wifi-1-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-wifi-2-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-wifi-3-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-wifi-4-bar::before {
+    content: "";
+}
+
+.mdi-device-signal-wifi-off::before {
+    content: "";
+}
+
+.mdi-device-storage::before {
+    content: "";
+}
+
+.mdi-device-usb::before {
+    content: "";
+}
+
+.mdi-device-wifi-lock::before {
+    content: "";
+}
+
+.mdi-device-wifi-tethering::before {
+    content: "";
+}
+
+.mdi-editor-attach-file::before {
+    content: "";
+}
+
+.mdi-editor-attach-money::before {
+    content: "";
+}
+
+.mdi-editor-border-all::before {
+    content: "";
+}
+
+.mdi-editor-border-bottom::before {
+    content: "";
+}
+
+.mdi-editor-border-clear::before {
+    content: "";
+}
+
+.mdi-editor-border-color::before {
+    content: "";
+}
+
+.mdi-editor-border-horizontal::before {
+    content: "";
+}
+
+.mdi-editor-border-inner::before {
+    content: "";
+}
+
+.mdi-editor-border-left::before {
+    content: "";
+}
+
+.mdi-editor-border-outer::before {
+    content: "";
+}
+
+.mdi-editor-border-right::before {
+    content: "";
+}
+
+.mdi-editor-border-style::before {
+    content: "";
+}
+
+.mdi-editor-border-top::before {
+    content: "";
+}
+
+.mdi-editor-border-vertical::before {
+    content: "";
+}
+
+.mdi-editor-format-align-center::before {
+    content: "";
+}
+
+.mdi-editor-format-align-justify::before {
+    content: "";
+}
+
+.mdi-editor-format-align-left::before {
+    content: "";
+}
+
+.mdi-editor-format-align-right::before {
+    content: "";
+}
+
+.mdi-editor-format-bold::before {
+    content: "";
+}
+
+.mdi-editor-format-clear::before {
+    content: "";
+}
+
+.mdi-editor-format-color-fill::before {
+    content: "";
+}
+
+.mdi-editor-format-color-reset::before {
+    content: "";
+}
+
+.mdi-editor-format-color-text::before {
+    content: "";
+}
+
+.mdi-editor-format-indent-decrease::before {
+    content: "";
+}
+
+.mdi-editor-format-indent-increase::before {
+    content: "";
+}
+
+.mdi-editor-format-italic::before {
+    content: "";
+}
+
+.mdi-editor-format-line-spacing::before {
+    content: "";
+}
+
+.mdi-editor-format-list-bulleted::before {
+    content: "";
+}
+
+.mdi-editor-format-list-numbered::before {
+    content: "";
+}
+
+.mdi-editor-format-paint::before {
+    content: "";
+}
+
+.mdi-editor-format-quote::before {
+    content: "";
+}
+
+.mdi-editor-format-size::before {
+    content: "";
+}
+
+.mdi-editor-format-strikethrough::before {
+    content: "";
+}
+
+.mdi-editor-functions::before {
+    content: "";
+}
+
+.mdi-editor-format-textdirection-l-to-r::before {
+    content: "";
+}
+
+.mdi-editor-format-underline::before {
+    content: "";
+}
+
+.mdi-editor-format-textdirection-r-to-l::before {
+    content: "";
+}
+
+.mdi-editor-insert-chart::before {
+    content: "";
+}
+
+.mdi-editor-insert-comment::before {
+    content: "";
+}
+
+.mdi-editor-insert-drive-file::before {
+    content: "";
+}
+
+.mdi-editor-insert-emoticon::before {
+    content: "";
+}
+
+.mdi-editor-insert-invitation::before {
+    content: "";
+}
+
+.mdi-editor-insert-link::before {
+    content: "";
+}
+
+.mdi-editor-insert-photo::before {
+    content: "";
+}
+
+.mdi-editor-merge-type::before {
+    content: "";
+}
+
+.mdi-editor-mode-comment::before {
+    content: "";
+}
+
+.mdi-editor-mode-edit::before {
+    content: "";
+}
+
+.mdi-editor-publish::before {
+    content: "";
+}
+
+.mdi-editor-vertical-align-bottom::before {
+    content: "";
+}
+
+.mdi-editor-vertical-align-center::before {
+    content: "";
+}
+
+.mdi-editor-vertical-align-top::before {
+    content: "";
+}
+
+.mdi-editor-wrap-text::before {
+    content: "";
+}
+
+.mdi-file-attachment::before {
+    content: "";
+}
+
+.mdi-file-cloud::before {
+    content: "";
+}
+
+.mdi-file-cloud-circle::before {
+    content: "";
+}
+
+.mdi-file-cloud-done::before {
+    content: "";
+}
+
+.mdi-file-cloud-download::before {
+    content: "";
+}
+
+.mdi-file-cloud-off::before {
+    content: "";
+}
+
+.mdi-file-cloud-queue::before {
+    content: "";
+}
+
+.mdi-file-cloud-upload::before {
+    content: "";
+}
+
+.mdi-file-file-download::before {
+    content: "";
+}
+
+.mdi-file-file-upload::before {
+    content: "";
+}
+
+.mdi-file-folder::before {
+    content: "";
+}
+
+.mdi-file-folder-open::before {
+    content: "";
+}
+
+.mdi-file-folder-shared::before {
+    content: "";
+}
+
+.mdi-hardware-cast::before {
+    content: "";
+}
+
+.mdi-hardware-cast-connected::before {
+    content: "";
+}
+
+.mdi-hardware-computer::before {
+    content: "";
+}
+
+.mdi-hardware-desktop-mac::before {
+    content: "";
+}
+
+.mdi-hardware-desktop-windows::before {
+    content: "";
+}
+
+.mdi-hardware-dock::before {
+    content: "";
+}
+
+.mdi-hardware-gamepad::before {
+    content: "";
+}
+
+.mdi-hardware-headset::before {
+    content: "";
+}
+
+.mdi-hardware-headset-mic::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-alt::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-arrow-down::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-arrow-left::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-arrow-right::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-arrow-up::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-backspace::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-capslock::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-control::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-hide::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-return::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-tab::before {
+    content: "";
+}
+
+.mdi-hardware-keyboard-voice::before {
+    content: "";
+}
+
+.mdi-hardware-laptop::before {
+    content: "";
+}
+
+.mdi-hardware-laptop-chromebook::before {
+    content: "";
+}
+
+.mdi-hardware-laptop-mac::before {
+    content: "";
+}
+
+.mdi-hardware-laptop-windows::before {
+    content: "";
+}
+
+.mdi-hardware-memory::before {
+    content: "";
+}
+
+.mdi-hardware-mouse::before {
+    content: "";
+}
+
+.mdi-hardware-phone-android::before {
+    content: "";
+}
+
+.mdi-hardware-phone-iphone::before {
+    content: "";
+}
+
+.mdi-hardware-phonelink::before {
+    content: "";
+}
+
+.mdi-hardware-phonelink-off::before {
+    content: "";
+}
+
+.mdi-hardware-security::before {
+    content: "";
+}
+
+.mdi-hardware-sim-card::before {
+    content: "";
+}
+
+.mdi-hardware-smartphone::before {
+    content: "";
+}
+
+.mdi-hardware-speaker::before {
+    content: "";
+}
+
+.mdi-hardware-tablet::before {
+    content: "";
+}
+
+.mdi-hardware-tablet-android::before {
+    content: "";
+}
+
+.mdi-hardware-tablet-mac::before {
+    content: "";
+}
+
+.mdi-hardware-tv::before {
+    content: "";
+}
+
+.mdi-hardware-watch::before {
+    content: "";
+}
+
+.mdi-image-add-to-photos::before {
+    content: "";
+}
+
+.mdi-image-adjust::before {
+    content: "";
+}
+
+.mdi-image-assistant-photo::before {
+    content: "";
+}
+
+.mdi-image-audiotrack::before {
+    content: "";
+}
+
+.mdi-image-blur-circular::before {
+    content: "";
+}
+
+.mdi-image-blur-linear::before {
+    content: "";
+}
+
+.mdi-image-blur-off::before {
+    content: "";
+}
+
+.mdi-image-blur-on::before {
+    content: "";
+}
+
+.mdi-image-brightness-1::before {
+    content: "";
+}
+
+.mdi-image-brightness-2::before {
+    content: "";
+}
+
+.mdi-image-brightness-3::before {
+    content: "";
+}
+
+.mdi-image-brightness-4::before {
+    content: "";
+}
+
+.mdi-image-brightness-5::before {
+    content: "";
+}
+
+.mdi-image-brightness-6::before {
+    content: "";
+}
+
+.mdi-image-brightness-7::before {
+    content: "";
+}
+
+.mdi-image-brush::before {
+    content: "";
+}
+
+.mdi-image-camera::before {
+    content: "";
+}
+
+.mdi-image-camera-alt::before {
+    content: "";
+}
+
+.mdi-image-camera-front::before {
+    content: "";
+}
+
+.mdi-image-camera-rear::before {
+    content: "";
+}
+
+.mdi-image-camera-roll::before {
+    content: "";
+}
+
+.mdi-image-center-focus-strong::before {
+    content: "";
+}
+
+.mdi-image-center-focus-weak::before {
+    content: "";
+}
+
+.mdi-image-collections::before {
+    content: "";
+}
+
+.mdi-image-colorize::before {
+    content: "";
+}
+
+.mdi-image-color-lens::before {
+    content: "";
+}
+
+.mdi-image-compare::before {
+    content: "";
+}
+
+.mdi-image-control-point::before {
+    content: "";
+}
+
+.mdi-image-control-point-duplicate::before {
+    content: "";
+}
+
+.mdi-image-crop::before {
+    content: "";
+}
+
+.mdi-image-crop-3-2::before {
+    content: "";
+}
+
+.mdi-image-crop-5-4::before {
+    content: "";
+}
+
+.mdi-image-crop-7-5::before {
+    content: "";
+}
+
+.mdi-image-crop-16-9::before {
+    content: "";
+}
+
+.mdi-image-crop-din::before {
+    content: "";
+}
+
+.mdi-image-crop-free::before {
+    content: "";
+}
+
+.mdi-image-crop-landscape::before {
+    content: "";
+}
+
+.mdi-image-crop-original::before {
+    content: "";
+}
+
+.mdi-image-crop-portrait::before {
+    content: "";
+}
+
+.mdi-image-crop-square::before {
+    content: "";
+}
+
+.mdi-image-dehaze::before {
+    content: "";
+}
+
+.mdi-image-details::before {
+    content: "";
+}
+
+.mdi-image-edit::before {
+    content: "";
+}
+
+.mdi-image-exposure::before {
+    content: "";
+}
+
+.mdi-image-exposure-minus-1::before {
+    content: "";
+}
+
+.mdi-image-exposure-minus-2::before {
+    content: "";
+}
+
+.mdi-image-exposure-plus-1::before {
+    content: "";
+}
+
+.mdi-image-exposure-plus-2::before {
+    content: "";
+}
+
+.mdi-image-exposure-zero::before {
+    content: "";
+}
+
+.mdi-image-filter::before {
+    content: "";
+}
+
+.mdi-image-filter-1::before {
+    content: "";
+}
+
+.mdi-image-filter-2::before {
+    content: "";
+}
+
+.mdi-image-filter-3::before {
+    content: "";
+}
+
+.mdi-image-filter-4::before {
+    content: "";
+}
+
+.mdi-image-filter-5::before {
+    content: "";
+}
+
+.mdi-image-filter-6::before {
+    content: "";
+}
+
+.mdi-image-filter-7::before {
+    content: "";
+}
+
+.mdi-image-filter-8::before {
+    content: "";
+}
+
+.mdi-image-filter-9::before {
+    content: "";
+}
+
+.mdi-image-filter-9-plus::before {
+    content: "";
+}
+
+.mdi-image-filter-b-and-w::before {
+    content: "";
+}
+
+.mdi-image-filter-center-focus::before {
+    content: "";
+}
+
+.mdi-image-filter-drama::before {
+    content: "";
+}
+
+.mdi-image-filter-frames::before {
+    content: "";
+}
+
+.mdi-image-filter-hdr::before {
+    content: "";
+}
+
+.mdi-image-filter-none::before {
+    content: "";
+}
+
+.mdi-image-filter-tilt-shift::before {
+    content: "";
+}
+
+.mdi-image-filter-vintage::before {
+    content: "";
+}
+
+.mdi-image-flare::before {
+    content: "";
+}
+
+.mdi-image-flash-auto::before {
+    content: "";
+}
+
+.mdi-image-flash-off::before {
+    content: "";
+}
+
+.mdi-image-flash-on::before {
+    content: "";
+}
+
+.mdi-image-flip::before {
+    content: "";
+}
+
+.mdi-image-gradient::before {
+    content: "";
+}
+
+.mdi-image-grain::before {
+    content: "";
+}
+
+.mdi-image-grid-off::before {
+    content: "";
+}
+
+.mdi-image-grid-on::before {
+    content: "";
+}
+
+.mdi-image-hdr-off::before {
+    content: "";
+}
+
+.mdi-image-hdr-on::before {
+    content: "";
+}
+
+.mdi-image-hdr-strong::before {
+    content: "";
+}
+
+.mdi-image-hdr-weak::before {
+    content: "";
+}
+
+.mdi-image-healing::before {
+    content: "";
+}
+
+.mdi-image-image::before {
+    content: "";
+}
+
+.mdi-image-image-aspect-ratio::before {
+    content: "";
+}
+
+.mdi-image-iso::before {
+    content: "";
+}
+
+.mdi-image-landscape::before {
+    content: "";
+}
+
+.mdi-image-leak-add::before {
+    content: "";
+}
+
+.mdi-image-leak-remove::before {
+    content: "";
+}
+
+.mdi-image-lens::before {
+    content: "";
+}
+
+.mdi-image-looks::before {
+    content: "";
+}
+
+.mdi-image-looks-3::before {
+    content: "";
+}
+
+.mdi-image-looks-4::before {
+    content: "";
+}
+
+.mdi-image-looks-5::before {
+    content: "";
+}
+
+.mdi-image-looks-6::before {
+    content: "";
+}
+
+.mdi-image-looks-one::before {
+    content: "";
+}
+
+.mdi-image-looks-two::before {
+    content: "";
+}
+
+.mdi-image-loupe::before {
+    content: "";
+}
+
+.mdi-image-movie-creation::before {
+    content: "";
+}
+
+.mdi-image-nature::before {
+    content: "";
+}
+
+.mdi-image-nature-people::before {
+    content: "";
+}
+
+.mdi-image-navigate-before::before {
+    content: "";
+}
+
+.mdi-image-navigate-next::before {
+    content: "";
+}
+
+.mdi-image-palette::before {
+    content: "";
+}
+
+.mdi-image-panorama::before {
+    content: "";
+}
+
+.mdi-image-panorama-fisheye::before {
+    content: "";
+}
+
+.mdi-image-panorama-horizontal::before {
+    content: "";
+}
+
+.mdi-image-panorama-vertical::before {
+    content: "";
+}
+
+.mdi-image-panorama-wide-angle::before {
+    content: "";
+}
+
+.mdi-image-photo::before {
+    content: "";
+}
+
+.mdi-image-photo-album::before {
+    content: "";
+}
+
+.mdi-image-photo-camera::before {
+    content: "";
+}
+
+.mdi-image-photo-library::before {
+    content: "";
+}
+
+.mdi-image-portrait::before {
+    content: "";
+}
+
+.mdi-image-remove-red-eye::before {
+    content: "";
+}
+
+.mdi-image-rotate-left::before {
+    content: "";
+}
+
+.mdi-image-rotate-right::before {
+    content: "";
+}
+
+.mdi-image-slideshow::before {
+    content: "";
+}
+
+.mdi-image-straighten::before {
+    content: "";
+}
+
+.mdi-image-style::before {
+    content: "";
+}
+
+.mdi-image-switch-camera::before {
+    content: "";
+}
+
+.mdi-image-switch-video::before {
+    content: "";
+}
+
+.mdi-image-tag-faces::before {
+    content: "";
+}
+
+.mdi-image-texture::before {
+    content: "";
+}
+
+.mdi-image-timelapse::before {
+    content: "";
+}
+
+.mdi-image-timer::before {
+    content: "";
+}
+
+.mdi-image-timer-3::before {
+    content: "";
+}
+
+.mdi-image-timer-10::before {
+    content: "";
+}
+
+.mdi-image-timer-auto::before {
+    content: "";
+}
+
+.mdi-image-timer-off::before {
+    content: "";
+}
+
+.mdi-image-tonality::before {
+    content: "";
+}
+
+.mdi-image-transform::before {
+    content: "";
+}
+
+.mdi-image-tune::before {
+    content: "";
+}
+
+.mdi-image-wb-auto::before {
+    content: "";
+}
+
+.mdi-image-wb-cloudy::before {
+    content: "";
+}
+
+.mdi-image-wb-incandescent::before {
+    content: "";
+}
+
+.mdi-image-wb-irradescent::before {
+    content: "";
+}
+
+.mdi-image-wb-sunny::before {
+    content: "";
+}
+
+.mdi-maps-beenhere::before {
+    content: "";
+}
+
+.mdi-maps-directions::before {
+    content: "";
+}
+
+.mdi-maps-directions-bike::before {
+    content: "";
+}
+
+.mdi-maps-directions-bus::before {
+    content: "";
+}
+
+.mdi-maps-directions-car::before {
+    content: "";
+}
+
+.mdi-maps-directions-ferry::before {
+    content: "";
+}
+
+.mdi-maps-directions-subway::before {
+    content: "";
+}
+
+.mdi-maps-directions-train::before {
+    content: "";
+}
+
+.mdi-maps-directions-transit::before {
+    content: "";
+}
+
+.mdi-maps-directions-walk::before {
+    content: "";
+}
+
+.mdi-maps-flight::before {
+    content: "";
+}
+
+.mdi-maps-hotel::before {
+    content: "";
+}
+
+.mdi-maps-layers::before {
+    content: "";
+}
+
+.mdi-maps-layers-clear::before {
+    content: "";
+}
+
+.mdi-maps-local-airport::before {
+    content: "";
+}
+
+.mdi-maps-local-atm::before {
+    content: "";
+}
+
+.mdi-maps-local-attraction::before {
+    content: "";
+}
+
+.mdi-maps-local-bar::before {
+    content: "";
+}
+
+.mdi-maps-local-cafe::before {
+    content: "";
+}
+
+.mdi-maps-local-car-wash::before {
+    content: "";
+}
+
+.mdi-maps-local-convenience-store::before {
+    content: "";
+}
+
+.mdi-maps-local-drink::before {
+    content: "";
+}
+
+.mdi-maps-local-florist::before {
+    content: "";
+}
+
+.mdi-maps-local-gas-station::before {
+    content: "";
+}
+
+.mdi-maps-local-grocery-store::before {
+    content: "";
+}
+
+.mdi-maps-local-hospital::before {
+    content: "";
+}
+
+.mdi-maps-local-hotel::before {
+    content: "";
+}
+
+.mdi-maps-local-laundry-service::before {
+    content: "";
+}
+
+.mdi-maps-local-library::before {
+    content: "";
+}
+
+.mdi-maps-local-mall::before {
+    content: "";
+}
+
+.mdi-maps-local-movies::before {
+    content: "";
+}
+
+.mdi-maps-local-offer::before {
+    content: "";
+}
+
+.mdi-maps-local-parking::before {
+    content: "";
+}
+
+.mdi-maps-local-pharmacy::before {
+    content: "";
+}
+
+.mdi-maps-local-phone::before {
+    content: "";
+}
+
+.mdi-maps-local-pizza::before {
+    content: "";
+}
+
+.mdi-maps-local-play::before {
+    content: "";
+}
+
+.mdi-maps-local-post-office::before {
+    content: "";
+}
+
+.mdi-maps-local-print-shop::before {
+    content: "";
+}
+
+.mdi-maps-local-restaurant::before {
+    content: "";
+}
+
+.mdi-maps-local-see::before {
+    content: "";
+}
+
+.mdi-maps-local-shipping::before {
+    content: "";
+}
+
+.mdi-maps-local-taxi::before {
+    content: "";
+}
+
+.mdi-maps-location-history::before {
+    content: "";
+}
+
+.mdi-maps-map::before {
+    content: "";
+}
+
+.mdi-maps-my-location::before {
+    content: "";
+}
+
+.mdi-maps-navigation::before {
+    content: "";
+}
+
+.mdi-maps-pin-drop::before {
+    content: "";
+}
+
+.mdi-maps-place::before {
+    content: "";
+}
+
+.mdi-maps-rate-review::before {
+    content: "";
+}
+
+.mdi-maps-restaurant-menu::before {
+    content: "";
+}
+
+.mdi-maps-satellite::before {
+    content: "";
+}
+
+.mdi-maps-store-mall-directory::before {
+    content: "";
+}
+
+.mdi-maps-terrain::before {
+    content: "";
+}
+
+.mdi-maps-traffic::before {
+    content: "";
+}
+
+.mdi-navigation-apps::before {
+    content: "";
+}
+
+.mdi-navigation-arrow-back::before {
+    content: "";
+}
+
+.mdi-navigation-arrow-drop-down::before {
+    content: "";
+}
+
+.mdi-navigation-arrow-drop-down-circle::before {
+    content: "";
+}
+
+.mdi-navigation-arrow-drop-up::before {
+    content: "";
+}
+
+.mdi-navigation-arrow-forward::before {
+    content: "";
+}
+
+.mdi-navigation-cancel::before {
+    content: "";
+}
+
+.mdi-navigation-check::before {
+    content: "";
+}
+
+.mdi-navigation-chevron-left::before {
+    content: "";
+}
+
+.mdi-navigation-chevron-right::before {
+    content: "";
+}
+
+.mdi-navigation-close::before {
+    content: "";
+}
+
+.mdi-navigation-expand-less::before {
+    content: "";
+}
+
+.mdi-navigation-expand-more::before {
+    content: "";
+}
+
+.mdi-navigation-fullscreen::before {
+    content: "";
+}
+
+.mdi-navigation-fullscreen-exit::before {
+    content: "";
+}
+
+.mdi-navigation-menu::before {
+    content: "";
+}
+
+.mdi-navigation-more-horiz::before {
+    content: "";
+}
+
+.mdi-navigation-more-vert::before {
+    content: "";
+}
+
+.mdi-navigation-refresh::before {
+    content: "";
+}
+
+.mdi-navigation-unfold-less::before {
+    content: "";
+}
+
+.mdi-navigation-unfold-more::before {
+    content: "";
+}
+
+.mdi-notification-adb::before {
+    content: "";
+}
+
+.mdi-notification-bluetooth-audio::before {
+    content: "";
+}
+
+.mdi-notification-disc-full::before {
+    content: "";
+}
+
+.mdi-notification-dnd-forwardslash::before {
+    content: "";
+}
+
+.mdi-notification-do-not-disturb::before {
+    content: "";
+}
+
+.mdi-notification-drive-eta::before {
+    content: "";
+}
+
+.mdi-notification-event-available::before {
+    content: "";
+}
+
+.mdi-notification-event-busy::before {
+    content: "";
+}
+
+.mdi-notification-event-note::before {
+    content: "";
+}
+
+.mdi-notification-folder-special::before {
+    content: "";
+}
+
+.mdi-notification-mms::before {
+    content: "";
+}
+
+.mdi-notification-more::before {
+    content: "";
+}
+
+.mdi-notification-network-locked::before {
+    content: "";
+}
+
+.mdi-notification-phone-bluetooth-speaker::before {
+    content: "";
+}
+
+.mdi-notification-phone-forwarded::before {
+    content: "";
+}
+
+.mdi-notification-phone-in-talk::before {
+    content: "";
+}
+
+.mdi-notification-phone-locked::before {
+    content: "";
+}
+
+.mdi-notification-phone-missed::before {
+    content: "";
+}
+
+.mdi-notification-phone-paused::before {
+    content: "";
+}
+
+.mdi-notification-play-download::before {
+    content: "";
+}
+
+.mdi-notification-play-install::before {
+    content: "";
+}
+
+.mdi-notification-sd-card::before {
+    content: "";
+}
+
+.mdi-notification-sim-card-alert::before {
+    content: "";
+}
+
+.mdi-notification-sms::before {
+    content: "";
+}
+
+.mdi-notification-sms-failed::before {
+    content: "";
+}
+
+.mdi-notification-sync::before {
+    content: "";
+}
+
+.mdi-notification-sync-disabled::before {
+    content: "";
+}
+
+.mdi-notification-sync-problem::before {
+    content: "";
+}
+
+.mdi-notification-system-update::before {
+    content: "";
+}
+
+.mdi-notification-tap-and-play::before {
+    content: "";
+}
+
+.mdi-notification-time-to-leave::before {
+    content: "";
+}
+
+.mdi-notification-vibration::before {
+    content: "";
+}
+
+.mdi-notification-voice-chat::before {
+    content: "";
+}
+
+.mdi-notification-vpn-lock::before {
+    content: "";
+}
+
+.mdi-social-cake::before {
+    content: "";
+}
+
+.mdi-social-domain::before {
+    content: "";
+}
+
+.mdi-social-group::before {
+    content: "";
+}
+
+.mdi-social-group-add::before {
+    content: "";
+}
+
+.mdi-social-location-city::before {
+    content: "";
+}
+
+.mdi-social-mood::before {
+    content: "";
+}
+
+.mdi-social-notifications::before {
+    content: "";
+}
+
+.mdi-social-notifications-none::before {
+    content: "";
+}
+
+.mdi-social-notifications-off::before {
+    content: "";
+}
+
+.mdi-social-notifications-on::before {
+    content: "";
+}
+
+.mdi-social-notifications-paused::before {
+    content: "";
+}
+
+.mdi-social-pages::before {
+    content: "";
+}
+
+.mdi-social-party-mode::before {
+    content: "";
+}
+
+.mdi-social-people::before {
+    content: "";
+}
+
+.mdi-social-people-outline::before {
+    content: "";
+}
+
+.mdi-social-person::before {
+    content: "";
+}
+
+.mdi-social-person-add::before {
+    content: "";
+}
+
+.mdi-social-person-outline::before {
+    content: "";
+}
+
+.mdi-social-plus-one::before {
+    content: "";
+}
+
+.mdi-social-poll::before {
+    content: "";
+}
+
+.mdi-social-public::before {
+    content: "";
+}
+
+.mdi-social-school::before {
+    content: "";
+}
+
+.mdi-social-share::before {
+    content: "";
+}
+
+.mdi-social-whatshot::before {
+    content: "";
+}
+
+.mdi-toggle-check-box::before {
+    content: "";
+}
+
+.mdi-toggle-check-box-outline-blank::before {
+    content: "";
+}
+
+.mdi-toggle-radio-button-off::before {
+    content: "";
+}
+
+.mdi-toggle-radio-button-on::before {
+    content: "";
+}
+
+@media only screen and (min-width: 601px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row .col {
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 0.75rem;
+}
+
+.row .col.s6 {
+    width: 50%;
+    margin-left: 0px;
+}
+
+.row .col.s12 {
+    width: 100%;
+    margin-left: 0px;
+}
+
+@media only screen and (min-width: 601px) {
+    .row .col.m6 {
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    .row .col.m12 {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .row .col.l6 {
+        width: 50%;
+        margin-left: 0px;
+    }
+
+    .row .col.l12 {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 601px) {
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 200;
+    src: url('roboto-thin.woff') format("woff"), url('roboto-thin.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 300;
+    src: url('roboto-light.woff') format("woff"), url('roboto-light.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 400;
+    src: url('roboto-regular.woff') format("woff"), url('roboto-regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 500;
+    src: url('roboto-medium.woff') format("woff"), url('roboto-medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    src: url('roboto-bold.woff') format("woff"), url('roboto-bold.ttf') format("truetype");
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+@media only screen and (min-width: 0px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 14.5px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+}
+
+@media only screen and (min-width: 0px) {
+}
+
+@media only screen and (min-width: 390px) {
+}
+
+@media only screen and (min-width: 30px) {
+}
+
+@media only screen and (min-width: 420px) {
+}
+
+@media only screen and (min-width: 60px) {
+}
+
+@media only screen and (min-width: 450px) {
+}
+
+@media only screen and (min-width: 90px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 120px) {
+}
+
+@media only screen and (min-width: 510px) {
+}
+
+@media only screen and (min-width: 150px) {
+}
+
+@media only screen and (min-width: 540px) {
+}
+
+@media only screen and (min-width: 180px) {
+}
+
+@media only screen and (min-width: 570px) {
+}
+
+@media only screen and (min-width: 210px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+@media only screen and (min-width: 240px) {
+}
+
+@media only screen and (min-width: 630px) {
+}
+
+@media only screen and (min-width: 270px) {
+}
+
+@media only screen and (min-width: 660px) {
+}
+
+@media only screen and (min-width: 300px) {
+}
+
+@media only screen and (min-width: 690px) {
+}
+
+@media only screen and (min-width: 330px) {
+}
+
+@media only screen and (min-width: 720px) {
+}
+
+@media only screen and (min-width: 360px) {
+}
+
+@media only screen and (min-width: 750px) {
+}
+
+@media only screen and (min-width: 390px) {
+}
+
+@media only screen and (min-width: 780px) {
+}
+
+@media only screen and (min-width: 420px) {
+}
+
+@media only screen and (min-width: 810px) {
+}
+
+@media only screen and (min-width: 450px) {
+}
+
+@media only screen and (min-width: 840px) {
+}
+
+@media only screen and (min-width: 480px) {
+}
+
+@media only screen and (min-width: 870px) {
+}
+
+@media only screen and (min-width: 510px) {
+}
+
+@media only screen and (min-width: 900px) {
+}
+
+@media only screen and (min-width: 540px) {
+}
+
+@media only screen and (min-width: 930px) {
+}
+
+@media only screen and (min-width: 570px) {
+}
+
+@media only screen and (min-width: 960px) {
+}
+
+@media only screen and (min-width: 600px) {
+}
+
+.card-panel {
+    padding: 20px;
+    margin: 0.5rem 0px 1rem;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+.btn, .btn-large, .btn-flat {
+    border: medium none;
+    border-radius: 2px;
+    display: inline-block;
+    height: 36px;
+    line-height: 36px;
+    outline: 0px none;
+    padding: 0px 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-large:disabled, .btn-floating:disabled {
+    background-color: rgb(223, 223, 223);
+    box-shadow: none;
+    color: rgb(159, 159, 159);
+    cursor: default;
+}
+
+.btn.disabled:hover, .disabled.btn-large:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover {
+    background-color: rgb(223, 223, 223);
+    color: rgb(159, 159, 159);
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 64, 129);
+    text-align: center;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease-out 0s;
+    cursor: pointer;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: rgb(255, 90, 146);
+}
+
+.btn-floating::before {
+    border-radius: 0px;
+}
+
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+    -moz-user-select: none;
+    vertical-align: middle;
+    z-index: 1;
+    will-change: opacity, transform;
+    transition: all 0.3s ease-out 0s;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+.materialboxed:hover:not(.active) {
+    opacity: 0.8;
+}
+
+label {
+    font-size: 0.8rem;
+    color: rgb(158, 158, 158);
+}
+
+:-moz-placeholder {
+    color: rgb(209, 209, 209);
+}
+
+*::-moz-placeholder {
+    color: rgb(209, 209, 209);
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="time"], input[type="date"], input[type="datetime-local"], input[type="tel"], input[type="number"], input[type="search"], textarea.materialize-textarea {
+    background-color: transparent;
+    border-width: medium medium 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color rgb(158, 158, 158);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 0px;
+    outline: medium none;
+    height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0px 0px 15px;
+    padding: 0px;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.3s ease 0s;
+}
+
+input[type="text"]:disabled, input[type="text"][readonly="readonly"], input[type="password"]:disabled, input[type="password"][readonly="readonly"], input[type="email"]:disabled, input[type="email"][readonly="readonly"], input[type="url"]:disabled, input[type="url"][readonly="readonly"], input[type="time"]:disabled, input[type="time"][readonly="readonly"], input[type="date"]:disabled, input[type="date"][readonly="readonly"], input[type="datetime-local"]:disabled, input[type="datetime-local"][readonly="readonly"], input[type="tel"]:disabled, input[type="tel"][readonly="readonly"], input[type="number"]:disabled, input[type="number"][readonly="readonly"], input[type="search"]:disabled, input[type="search"][readonly="readonly"], textarea.materialize-textarea:disabled, textarea.materialize-textarea[readonly="readonly"] {
+    color: rgba(0, 0, 0, 0.26);
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.26);
+}
+
+input[type="text"]:disabled + label, input[type="text"][readonly="readonly"] + label, input[type="password"]:disabled + label, input[type="password"][readonly="readonly"] + label, input[type="email"]:disabled + label, input[type="email"][readonly="readonly"] + label, input[type="url"]:disabled + label, input[type="url"][readonly="readonly"] + label, input[type="time"]:disabled + label, input[type="time"][readonly="readonly"] + label, input[type="date"]:disabled + label, input[type="date"][readonly="readonly"] + label, input[type="datetime-local"]:disabled + label, input[type="datetime-local"][readonly="readonly"] + label, input[type="tel"]:disabled + label, input[type="tel"][readonly="readonly"] + label, input[type="number"]:disabled + label, input[type="number"][readonly="readonly"] + label, input[type="search"]:disabled + label, input[type="search"][readonly="readonly"] + label, textarea.materialize-textarea:disabled + label, textarea.materialize-textarea[readonly="readonly"] + label {
+    color: rgba(0, 0, 0, 0.26);
+}
+
+input[type="text"]:focus:not([readonly]), input[type="password"]:focus:not([readonly]), input[type="email"]:focus:not([readonly]), input[type="url"]:focus:not([readonly]), input[type="time"]:focus:not([readonly]), input[type="date"]:focus:not([readonly]), input[type="datetime-local"]:focus:not([readonly]), input[type="tel"]:focus:not([readonly]), input[type="number"]:focus:not([readonly]), input[type="search"]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(255, 64, 129);
+    box-shadow: 0px 1px 0px 0px rgb(255, 64, 129);
+}
+
+input[type="text"]:focus:not([readonly]) + label, input[type="password"]:focus:not([readonly]) + label, input[type="email"]:focus:not([readonly]) + label, input[type="url"]:focus:not([readonly]) + label, input[type="time"]:focus:not([readonly]) + label, input[type="date"]:focus:not([readonly]) + label, input[type="datetime-local"]:focus:not([readonly]) + label, input[type="tel"]:focus:not([readonly]) + label, input[type="number"]:focus:not([readonly]) + label, input[type="search"]:focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label {
+    color: rgb(255, 64, 129);
+}
+
+input.valid[type="text"] + label::after, input.valid[type="text"]:focus + label::after, input.valid[type="password"] + label::after, input.valid[type="password"]:focus + label::after, input.valid[type="email"] + label::after, input.valid[type="email"]:focus + label::after, input.valid[type="url"] + label::after, input.valid[type="url"]:focus + label::after, input.valid[type="time"] + label::after, input.valid[type="time"]:focus + label::after, input.valid[type="date"] + label::after, input.valid[type="date"]:focus + label::after, input.valid[type="datetime-local"] + label::after, input.valid[type="datetime-local"]:focus + label::after, input.valid[type="tel"] + label::after, input.valid[type="tel"]:focus + label::after, input.valid[type="number"] + label::after, input.valid[type="number"]:focus + label::after, input.valid[type="search"] + label::after, input.valid[type="search"]:focus + label::after, textarea.materialize-textarea.valid + label::after, textarea.materialize-textarea.valid:focus + label::after {
+    content: attr(data-success);
+    color: rgb(76, 175, 80);
+    opacity: 1;
+}
+
+input.invalid[type="text"] + label::after, input.invalid[type="text"]:focus + label::after, input.invalid[type="password"] + label::after, input.invalid[type="password"]:focus + label::after, input.invalid[type="email"] + label::after, input.invalid[type="email"]:focus + label::after, input.invalid[type="url"] + label::after, input.invalid[type="url"]:focus + label::after, input.invalid[type="time"] + label::after, input.invalid[type="time"]:focus + label::after, input.invalid[type="date"] + label::after, input.invalid[type="date"]:focus + label::after, input.invalid[type="datetime-local"] + label::after, input.invalid[type="datetime-local"]:focus + label::after, input.invalid[type="tel"] + label::after, input.invalid[type="tel"]:focus + label::after, input.invalid[type="number"] + label::after, input.invalid[type="number"]:focus + label::after, input.invalid[type="search"] + label::after, input.invalid[type="search"]:focus + label::after, textarea.materialize-textarea.invalid + label::after, textarea.materialize-textarea.invalid:focus + label::after {
+    content: attr(data-error);
+    color: rgb(244, 67, 54);
+    opacity: 1;
+}
+
+input[type="text"] + label::after, input[type="password"] + label::after, input[type="email"] + label::after, input[type="url"] + label::after, input[type="time"] + label::after, input[type="date"] + label::after, input[type="datetime-local"] + label::after, input[type="tel"] + label::after, input[type="number"] + label::after, input[type="search"] + label::after, textarea.materialize-textarea + label::after {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 65px;
+    opacity: 0;
+    transition: opacity 0.2s ease-out 0s, color 0.2s ease-out 0s;
+}
+
+.input-field {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.input-field label {
+    color: rgb(158, 158, 158);
+    position: absolute;
+    top: 0.8rem;
+    left: 0.75rem;
+    font-size: 1rem;
+    cursor: text;
+    transition: all 0.2s ease-out 0s;
+}
+
+.input-field .prefix {
+    position: absolute;
+    width: 3rem;
+    font-size: 2rem;
+    transition: color 0.2s ease 0s;
+}
+
+.input-field .prefix ~ input, .input-field .prefix ~ textarea {
+    margin-left: 3rem;
+    width: calc(100% - 3rem);
+}
+
+.input-field .prefix ~ label {
+    margin-left: 3rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .input-field .prefix ~ input {
+        width: calc(100% - 3rem);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .input-field .prefix ~ input {
+        width: calc(100% - 3rem);
+    }
+}
+
+.hiddendiv {
+    display: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    padding-top: 1.2rem;
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+}
+
+[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    transition: all 0.28s ease 0s;
+    -moz-user-select: none;
+}
+
+[type="radio"] + label::before, [type="radio"] + label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 4px;
+    width: 16px;
+    height: 16px;
+    z-index: 0;
+    transition: all 0.28s ease 0s;
+}
+
+[type="radio"]:not(:checked) + label::before {
+    border-radius: 50%;
+    border: 2px solid rgb(90, 90, 90);
+}
+
+[type="radio"]:not(:checked) + label::after {
+    border-radius: 50%;
+    border: 2px solid rgb(90, 90, 90);
+    z-index: -1;
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label::before {
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+
+[type="radio"]:checked + label::after {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 64, 129);
+    background-color: rgb(255, 64, 129);
+    z-index: 0;
+    transform: scale(1.02);
+}
+
+.with-gap[type="radio"]:checked + label::before {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 64, 129);
+}
+
+.with-gap[type="radio"]:checked + label::after {
+    border-radius: 50%;
+    border: 2px solid rgb(255, 64, 129);
+    background-color: rgb(255, 64, 129);
+    z-index: 0;
+    transform: scale(0.5);
+}
+
+.with-gap[type="radio"]:disabled:checked + label::before {
+    border: 2px solid rgba(0, 0, 0, 0.26);
+}
+
+.with-gap[type="radio"]:disabled:checked + label::after {
+    border: medium none;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+[type="radio"]:disabled:not(:checked) + label::before, [type="radio"]:disabled:checked + label::before {
+    background-color: transparent;
+    border-color: rgba(0, 0, 0, 0.26);
+}
+
+[type="radio"]:disabled:not(:checked) + label::before {
+    border-color: rgba(0, 0, 0, 0.26);
+}
+
+[type="radio"]:disabled:checked + label::after {
+    background-color: rgba(0, 0, 0, 0.26);
+    border-color: rgb(189, 189, 189);
+}
+
+form p {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+form p:last-child {
+    margin-bottom: 0px;
+}
+
+[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+    position: absolute;
+    left: -9999px;
+    visibility: hidden;
+}
+
+[type="checkbox"] {
+}
+
+[type="checkbox"] + label {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem;
+    -moz-user-select: none;
+}
+
+[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 18px;
+    height: 18px;
+    z-index: 0;
+    border: 2px solid rgb(90, 90, 90);
+    border-radius: 1px;
+    margin-top: 2px;
+    transition: all 0.2s ease 0s;
+}
+
+[type="checkbox"]:disabled:not(:checked) + label::before {
+    border: medium none;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+[type="checkbox"]:checked + label::before {
+    top: -4px;
+    left: -3px;
+    width: 12px;
+    height: 22px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent rgb(255, 64, 129) rgb(255, 64, 129) transparent;
+    transform: rotate(40deg);
+    transform-origin: 100% 100% 0px;
+}
+
+[type="checkbox"]:checked:disabled + label::before {
+    border-right: 2px solid rgba(0, 0, 0, 0.26);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.26);
+}
+
+[type="checkbox"]:indeterminate + label::before {
+    left: -10px;
+    top: -11px;
+    width: 10px;
+    height: 22px;
+    border-width: medium 2px medium medium;
+    border-style: none solid none none;
+    border-color: -moz-use-text-color rgb(255, 64, 129) -moz-use-text-color -moz-use-text-color;
+    transform: rotate(90deg);
+    transform-origin: 100% 100% 0px;
+}
+
+[type="checkbox"]:indeterminate:disabled + label::before {
+    border-right: 2px solid rgba(0, 0, 0, 0.26);
+    background-color: transparent;
+}
+
+.filled-in[type="checkbox"] + label::after {
+    border-radius: 2px;
+}
+
+.filled-in[type="checkbox"] + label::before, .filled-in[type="checkbox"] + label::after {
+    content: "";
+    left: 0px;
+    position: absolute;
+    transition: border 0.25s ease 0s, background-color 0.25s ease 0s, width 0.2s ease 0.1s, height 0.2s ease 0.1s, top 0.2s ease 0.1s, left 0.2s ease 0.1s;
+    z-index: 1;
+}
+
+.filled-in[type="checkbox"]:not(:checked) + label::before {
+    width: 0px;
+    height: 0px;
+    border: 3px solid transparent;
+    left: 6px;
+    top: 10px;
+    transform: rotateZ(37deg);
+    transform-origin: 100% 100% 0px;
+}
+
+.filled-in[type="checkbox"]:not(:checked) + label::after {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border: 2px solid rgb(90, 90, 90);
+    top: 0px;
+    z-index: 0;
+}
+
+.filled-in[type="checkbox"]:checked + label::before {
+    top: 0px;
+    left: 1px;
+    width: 8px;
+    height: 13px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent rgb(255, 255, 255) rgb(255, 255, 255) transparent;
+    transform: rotateZ(37deg);
+    transform-origin: 100% 100% 0px;
+}
+
+.filled-in[type="checkbox"]:checked + label::after {
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(255, 64, 129);
+    background-color: rgb(255, 64, 129);
+    z-index: 0;
+}
+
+.filled-in[type="checkbox"]:disabled:not(:checked) + label::before {
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.filled-in[type="checkbox"]:disabled:not(:checked) + label::after {
+    border-color: transparent;
+    background-color: rgb(189, 189, 189);
+}
+
+.filled-in[type="checkbox"]:disabled:checked + label::before {
+    background-color: transparent;
+}
+
+.filled-in[type="checkbox"]:disabled:checked + label::after {
+    background-color: rgb(189, 189, 189);
+    border-color: rgb(189, 189, 189);
+}
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+    background-color: rgb(255, 64, 129);
+}
+
+.switch label .lever::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 21px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.4);
+    left: -5px;
+    top: -3px;
+    transition: left 0.3s ease 0s, background 0.3s ease 0s, box-shadow 0.1s ease 0s;
+}
+
+input[type="checkbox"]:checked:not(:disabled) ~ .lever:active::after {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.4), 0px 0px 0px 15px rgba(255, 64, 129, 0.1);
+}
+
+input[type="checkbox"]:not(:disabled) ~ .lever:active::after {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.4), 0px 0px 0px 15px rgba(0, 0, 0, 0.08);
+}
+
+.switch label input[type="checkbox"]:checked + .lever::after {
+    left: 24px;
+}
+
+.switch label input[type="checkbox"][disabled] + .lever::after, .switch label input[type="checkbox"][disabled]:checked + .lever::after {
+    background-color: rgb(189, 189, 189);
+}
+
+input[type="range"]::-moz-range-track {
+    height: 3px;
+    background: rgb(221, 221, 221) none repeat scroll 0% 0%;
+    border: medium none;
+}
+
+input[type="range"]::-moz-range-thumb {
+    border: medium none;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background: rgb(255, 64, 129) none repeat scroll 0% 0%;
+    margin-top: -5px;
+}
+
+input[type="range"]:focus::-moz-range-track {
+    background: rgb(204, 204, 204) none repeat scroll 0% 0%;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+.picker__day--disabled::before {
+    border-top-color: rgb(170, 170, 170);
+}
+
+.picker__button--today::before, .picker__button--clear::before, .picker__button--close::before {
+    position: relative;
+    display: inline-block;
+    height: 0px;
+}
+
+.picker__button--today::before, .picker__button--clear::before {
+    content: " ";
+    margin-right: 0.45em;
+}
+
+.picker__button--today::before {
+    top: -0.05em;
+    width: 0px;
+    border-top: 0.66em solid rgb(0, 89, 188);
+    border-left: 0.66em solid transparent;
+}
+
+.picker__button--clear::before {
+    top: -0.25em;
+    width: 0.66em;
+    border-top: 3px solid rgb(238, 34, 0);
+}
+
+.picker__button--close::before {
+    content: "×";
+    top: -0.1em;
+    vertical-align: top;
+    font-size: 1.1em;
+    margin-right: 0.35em;
+    color: rgb(119, 119, 119);
+}
+
+.picker__button--today[disabled]::before {
+    border-top-color: rgb(170, 170, 170);
+}
+
+.picker__nav--prev::before, .picker__nav--next::before {
+    content: " ";
+    border-top: 0.5em solid transparent;
+    border-bottom: 0.5em solid transparent;
+    border-right: 0.75em solid rgb(103, 103, 103);
+    width: 0px;
+    height: 0px;
+    display: block;
+    margin: 0px auto;
+}
+
+.picker__nav--next::before {
+    border-right: 0px none;
+    border-left: 0.75em solid rgb(103, 103, 103);
+}
+
+.picker--time .picker__button--clear::before {
+    top: -0.25em;
+    color: rgb(102, 102, 102);
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.picker--time .picker__button--clear:hover::before, .picker--time .picker__button--clear:focus::before {
+    color: rgb(255, 255, 255);
+}
+
+/* ::::: http://demo.geekslabs.com/materialize/v2.2/layout03/css/style.css ::::: */
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+@media only screen and (min-width: 601px) {
+}
+
+@media only screen and (min-width: 993px) {
+}
+
+@media only screen and (max-width: 993px) {
+}
+
+.medium-small {
+    font-size: 0.9rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.margin {
+    margin: 0px ! important;
+}
+
+#loader-wrapper {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0px 0px -75px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(52, 152, 219) transparent transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    animation: 2s linear 0s normal none infinite running spin;
+    z-index: 1001;
+}
+
+#loader::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(231, 76, 60) transparent transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    animation: 3s linear 0s normal none infinite running spin;
+}
+
+#loader::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(249, 201, 34) transparent transparent;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    animation: 1.5s linear 0s normal none infinite running spin;
+}
+
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0px;
+    width: 51%;
+    height: 100%;
+    background: rgb(34, 34, 34) none repeat scroll 0% 0%;
+    z-index: 1000;
+    transform: translateX(0px);
+}
+
+#loader-wrapper .loader-section.section-left {
+    left: 0px;
+}
+
+#loader-wrapper .loader-section.section-right {
+    right: 0px;
+}
+
+.loaded #loader-wrapper .loader-section.section-left {
+    transform: translateX(-100%);
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s;
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+    transform: translateX(100%);
+    transition: all 0.7s cubic-bezier(0.645, 0.045, 0.355, 1) 0.3s;
+}
+
+.loaded #loader {
+    opacity: 0;
+    transition: all 0.3s ease-out 0s;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: all 0.3s ease-out 1s;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+.header-search-input::-moz-placeholder {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header-search-input:focus::-moz-placeholder {
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.search-out input[type="text"]:focus:not([readonly]) {
+    border-bottom: 1px solid rgb(255, 255, 255) ! important;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+.breadcrumb > li + li::before {
+    padding: 0px 5px;
+    color: rgb(204, 204, 204);
+    content: "/ ";
+}
+
+.doughnut-chart-legend li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: block;
+    float: left;
+    margin-top: 6px;
+    margin-right: 4px;
+}
+
+li.mobile::before {
+    background: rgb(247, 70, 74) none repeat scroll 0% 0%;
+}
+
+li.kitchen::before {
+    background: rgb(70, 191, 189) none repeat scroll 0% 0%;
+}
+
+li.home::before {
+    background: rgb(253, 180, 92) none repeat scroll 0% 0%;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+.login-form {
+    width: 280px;
+}
+
+.login-form-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+}
+
+.profile-image-login {
+    width: 100px;
+    height: 100px ! important;
+}
+
+.login-text {
+    margin-top: -6px;
+    margin-left: -6px ! important;
+}
+
+@media screen and (max-width: 2200px) {
+}
+
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1224px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 720px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 2200px) {
+}
+
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1224px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 720px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 2200px) {
+}
+
+@media screen and (max-width: 1800px) {
+}
+
+@media screen and (max-width: 1600px) {
+}
+
+@media screen and (max-width: 1224px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 720px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+.plans-container .collection .collection-item::before {
+    font-size: 1.28rem;
+    line-height: 1.6em;
+    color: rgb(0, 147, 21);
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    content: "";
+    margin-right: 10px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+}
+
+/* ::::: http://demo.geekslabs.com/materialize/v2.2/layout03/css/custom-style.css ::::: */
+
+/* ::::: http://demo.geekslabs.com/materialize/v2.2/layout03/css/style-horizontal.css ::::: */
+
+@media only screen and (min-width: 993px) {
+}
+
+@media not all {
+}
+
+/* ::::: http://demo.geekslabs.com/materialize/v2.2/layout03/css/page-center.css ::::: */
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* ::::: http://demo.geekslabs.com/materialize/v2.2/layout03/css/prism.css ::::: */
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] *::-moz-selection, code[class*="language-"]::-moz-selection, code[class*="language-"] *::-moz-selection {
+    text-shadow: none;
+    background: rgb(179, 212, 252) none repeat scroll 0% 0%;
+}
+
+:not(pre) > code[class*="language-"], pre[class*="language-"] {
+    background: rgb(245, 242, 240) none repeat scroll 0% 0%;
+}
+
+:not(pre) > code[class*="language-"] {
+    padding: 0.1em;
+    border-radius: 0.3em;
+}
+
+/* ::::: http://demo.geekslabs.com/materialize/v2.2/layout03/js/plugins/perfect-scrollbar/perfect-scrollbar.css ::::: */
+

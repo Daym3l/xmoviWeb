@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.produktliste {
+    margin: 0px;
+    padding: 0px;
+}
+.update {
+    font-size: 12px;
+}
+.produktliste img {
+    width: 100%;
+}
+
+.produktliste .card {
+    cursor: pointer;
+}
+
+.produktliste .card-image {
+    height: 350px;
+    max-height: 350px;
+}
+
+.produktliste .card-content {
+    height: 120px;
+    max-height: 120px;
+}
+
+.clearfix::before, .clearfix::after {
+    content: " ";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.produktliste .card-content h3 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.produktliste .card-content h3 a {
+    text-transform: none;
+    color: rgb(33, 33, 33);
+}
+
+.produktliste .row {
+    margin: 0px ! important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.iconos{
+    font-size: medium;
+    position: relative;
+    bottom: 5px;
+}
+.pos_row{
+    position: relative;
+    top:20px;
+}
+.produktliste .price {
+    color: rgb(33, 150, 243);
+    position: relative;
+    text-align: right;
+    right: 20px;
+}
+
+.produktliste .savemoney {
+    position: absolute;
+    color: rgb(189, 189, 189);
+    right: 21px;
+    top: -1px;
+}
+
+.produktliste .reviews-no {
+    display: none;
+}
+
+.produktliste .card-image {
+    width: 90%;
+    height: 90%;
+    padding-left: 13%;
+    padding-top: 10%;
+
+
+}
+
+@media only screen and (max-width: 900px) {
+    .produktliste {
+        margin: 20px 0px;
+    }
+
+    .produktliste .card {
+        box-shadow: none;
+        border-bottom: 1px solid rgb(224, 224, 224);
+        margin: 0px -30px;
+    }
+
+    .produktliste .card-image {
+        width: 30%;
+        float: left;
+        height: auto;
+        left: -45px;
+    }
+
+    .produktliste .card-content {
+        float: right;
+        width: 70%;
+        height: auto;
+        padding: 10px;
+        left: -30px;
+    }
+
+    .produktliste .card-content h3 {
+        font-size: 1.2rem;
+        font-weight: 100;
+    }
+
+    .produktliste .card-action {
+        border: 0px none;
+        float: right;
+        width: 70%;
+        padding: 20px 0px 10px;
+        margin: 0px;
+    }
+
+    .produktliste .price-used {
+        display: none;
+    }
+
+
+}

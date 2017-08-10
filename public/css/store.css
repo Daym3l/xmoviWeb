@@ -1,0 +1,114 @@
+ul.card-action-buttons {
+    margin: -33px 10px 0px 0px;
+    text-align: right;
+}
+
+ul.card-action-buttons li {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.xm-card-title {
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.xm-card-date {
+    font-size: 1rem;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+}
+
+.brand-pd {
+    padding-left: 15px;
+}
+
+p.collections-title {
+    font-size: 1rem;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 500;
+}
+
+.collection-item.avatar {
+    height: auto;
+}
+
+.collection .collection-item.avatar i.circle {
+    font-size: 28px;
+}
+
+p.collections-content {
+    font-size: 0.9rem;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 400;
+}
+
+.collection .collection-item.avatar {
+    height: 84px;
+    padding-left: 72px;
+    position: relative;
+}
+
+.collection .collection-item.avatar .circle {
+    position: absolute;
+    width: 38px;
+    height: 70px;
+    overflow: hidden;
+
+    left: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 0%;
+    top: 2px;
+}
+
+.collection .collection-item.avatar i.circle {
+    font-size: 25px;
+    line-height: 42px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 153, 153);
+    text-align: center;
+}
+
+.collection .collection-item.avatar p {
+    margin: 0px;
+}
+
+.info {
+    font-size: 25px;
+
+}
+
+.collection .collection-item.avatar .secondary-content {
+    position: absolute;
+    top: 18px;
+    right: 16px;
+    bottom: 10px;
+}
+
+.corregirBtn {
+    margin-right: 2em;
+}
+
+#modal_img {
+    width: 550px;
+}
+
+.img_card {
+    width: 70%;
+    padding-left: 0px;
+}
+
+@media only screen and (min-device-width: 800px) {
+    #modal_img {
+        width: 450px;
+    }
+
+    .img_card {
+        width: 90%;
+        padding-left: 40px;
+    }
+}

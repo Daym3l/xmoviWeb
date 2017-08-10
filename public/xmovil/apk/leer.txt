@@ -1,0 +1,32 @@
+--------------------------------XMOVIL------------------------------------
+1- COPIAR LA CARPETA <<XMOVIL>> en SD del dispositivo con todo su contenido,... la carpeta moviles es opcional <<En ella se encuetran las imágenes de los dispositivos a comparar, en caso de no desear la imágenes eliminar la carpeta>>.
+2- Instalar la aplicación
+3- Disfrute
+4- Gracias....
+
+-----------------------Bug conocidos---------------------------------
+
+-----------------------Changelog--------------------------------------
+
+v 3.2
+- Se soluciona el error del acerca de, para dispositivos con la versión 4 de android. 
+
+v 3.1
+- Se incluyen los Indicadores de pag.
+
+v 3.0
+- Se incluye las imagenes de los dispositivos a ambos lados de la comparación.
+
+v 2.1
+- Se arregla el problema de instalación del apk.
+- Se corrige el ancho de la lista de los moviles.
+
+v 2.0
+- Mejoras de usabilidad
+- Petición de permisos de la aplicación para leer de la sd (Android 6.0,7.0).
+- Calcúlo de recomendación basada en la principales propiedades del movil.
+- Mejoras en la IU.
+- Se incluye el acerca de.
+
+v 1.0
+- Errores de IU
